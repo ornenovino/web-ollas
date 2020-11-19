@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Ollas populares</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link
+    href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+    rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+    <!-- Sidebar -->
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+      <!-- Sidebar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+        <div class="sidebar-brand-icon rotate-n-15">
+          <i class="fas fa-hands-helping"></i>
+        </div>
+        <div class="sidebar-brand-text mx-3">Ollas populares</div>
+      </a>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider my-0">
+
+      <!-- Nav Item - Dashboard -->
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">
+          <i class="fas fa-fw fa-info"></i>
+          <span>Sobre el proyecto</span></a>
+      </li>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider">
+
+      <!-- Heading -->
+      <div class="sidebar-heading">
+        Proyecto
+      </div>
+
+      <!-- Nav Item - Pages Collapse Menu -->
+
+      <!-- Nav Item - Metodología -->
+      <li class="nav-item">
+        <a class="nav-link" href="met.html">
+          <i class="fas fa-fw fa-cog"></i>
+          <span>Metodología</span></a>
+      </li>
+
+      <!-- Nav Item - Antecedentes -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
+          aria-controls="collapseTwo">
+          <i class="fas fa-fw fa-clock"></i>
+          <span>Antecedentes</span>
+        </a>
+
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Información</h6>
+            <a class="collapse-item" href="abstract.html">Abstract</a>
+            <a class="collapse-item" href="time-line.html">Línea de tiempo</a>
+          </div>
+        </div>
+      </li>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider">
+
+      <!-- Heading -->
+      <div class="sidebar-heading">
+        Las Ollas Populares en el 2020
+      </div>
+
+      <!-- Nav Item - Mapa Ollas -->
+      <li class="nav-item">
+        <a class="nav-link" href="map_total.html">
+          <i class="fas fa-fw fa-map"></i>
+          <span>¿Dónde están las OP?</span></a>
+      </li>
+
+      <!-- Nav Item - Montevideo -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
+          aria-expanded="true" aria-controls="collapseUtilities">
+          <i class="fas fa-fw fa-map-pin"></i>
+          <span>Las OP en Montevideo</span>
+        </a>
+        <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Información</h6>
+            <a class="collapse-item" href="map_mvd.html">¿Dónde están ubicadas?</a>
+            <a class="collapse-item" href="chart.html">Gráficos</a>
+          </div>
+        </div>
+      </li>
+      <!-- Divider -->
+      <hr class="sidebar-divider d-none d-md-block">
+
+      <!-- Heading -->
+      <div class="sidebar-heading">
+        Información
+      </div>
+
+      <!-- Contacto -->
+      <li class="nav-item">
+        <a class="nav-link" href="team.html">
+          <i class="fas fa-fw fa-users"></i>
+          <span>Equipo</span></a>
+      </li>
+
+      <!-- Sidebar Toggler (Sidebar) -->
+      <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+      </div>
+
+    </ul>
+    <!-- End of Sidebar -->
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+
+      <!-- Main Content -->
+      <div id="content">
+
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+          <!-- Sidebar Toggle (Topbar) -->
+          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+            <i class="fa fa-bars"></i>
+          </button>
+
+        </nav>
+        <!-- End of Topbar -->
+
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+
+          <!-- Page Heading -->
+          <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-2 text-gray-800">Gráficos</h1>
+          </div>
+          <div>
+            <p class="mb-12">Visualización de datos agregados del proyecto</p>
+          </div>
+
+          <!-- Pie -->
+          <div class="card shadow mb-4">
+            <div class="card-header py-3">
+              <h6 class="m-0 font-weight-bold text-primary">Distribución de ollas populares en municipios Montevideo -
+                2020</h6>
+            </div>
+
+            <!-- Card Body -->
+            <div class="card-body">
+              <div class="chart-pie pt-4 pb-2">
+                <canvas id="myPieChart"></canvas>
+              </div>
+              <div class="mt-4 text-center small">
+                <span class="mr-2">
+                  <i class="fas fa-circle" style="color: #4287c7;"></i> Municipio A
+                </span>
+                <span class="mr-2">
+                  <i class="fas fa-circle" style="color: #98c680;"></i> Municipio D
+                </span>
+                <span class="mr-2">
+                  <i class="fas fa-circle" style="color: #fde17e;"></i> Municipio F
+                </span>
+                <span class="mr-2">
+                  <i class="fas fa-circle" style="color: #ffb144;"></i> Municipio B
+                </span>
+                <span class="mr-2">
+                  <i class="fas fa-circle" style="color: #f46339;"></i> Municipio G
+                </span>
+                <span class="mr-2">
+                  <i class="fas fa-circle" style="color: #74c7ff;"></i> Municipio C
+                </span>
+                <span class="mr-2">
+                  <i class="fas fa-circle" style="color: #f5633e;"></i> Municipio E
+                </span>
+                <span class="mr-2">
+                  <i class="fas fa-circle" style="color: #b5fffa;"></i> Municipio CH
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Line -->
+          <div class="card shadow mb-5">
+            <div class="card-header py-3">
+              <h6 class="m-0 font-weight-bold text-primary">Distribución de ollas populares en municipios Montevideo -
+                2020</h6>
+            </div>
+
+            <!-- Card Body -->
+            <div class="card-body">
+              <div class="mt-2 text-center small">
+                <span class="mr-2">
+                  <i class="fas fa-circle" style="color: #337410;"></i> Cantidad de ollas cada 1000 habitantes por
+                  barrio
+                </span>
+              </div>
+              <div class="chart-bar pt-2">
+                <canvas id="myLinePlotone"></canvas>
+              </div>
+            </div>
+          </div>
+          <!-- Scatter -->
+          <!-- Line -->
+          <div class="card shadow mb-5">
+            <div class="card-header py-3">
+              <h6 class="m-0 font-weight-bold text-primary">Distribución de ollas populares en municipios de Montevideo
+                y trabajadores informales - 2020
+              </h6>
+            </div>
+
+            <!-- Card Body -->
+            <div class="card-body">
+              <div class="mt-2 text-center small">
+                <span class="mr-2">
+                  <i class="fas fa-circle" style="color: #f46339;"></i> Cantidad de ollas cada 1.000 habitantes por
+                  proporción de trabajadores informales por barrio
+                </span>
+              </div>
+              <div class="chart-bar pt-2">
+                <canvas id="myScat"></canvas>
+              </div>
+            </div>
+            <!-- /.container-fluid -->
+          </div>
+          <!-- End of Main Content -->
+
+          <!-- Footer -->
+          <footer class="sticky-footer bg-white">
+            <div class="container my-auto">
+              <div class="copyright text-center my-auto">
+                <span>Copyright &copy; Proyecto ollas populares Uruguay 2020</span>
+              </div>
+            </div>
+          </footer>
+          <!-- End of Footer -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+      </div>
+      <!-- End of Page Wrapper -->
+
+      <!-- Scroll to Top Button-->
+      <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+      </a>
+
+      <!-- Bootstrap core JavaScript-->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+      <!-- Core plugin JavaScript-->
+      <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+      <!-- Custom scripts for all pages-->
+      <script src="js/sb-admin-2.min.js"></script>
+
+      <!-- Page level plugins -->
+      <script src="vendor/chart.js/Chart.min.js"></script>
+
+      <!-- Page level custom scripts -->
+      <script src="js/chart-pie.js"></script>
+      <script src="js/chart-line-one.js"></script>
+      <script src="js/chart-scat.js"></script>
+
+</body>
+
+</html>
