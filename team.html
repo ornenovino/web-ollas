@@ -19,7 +19,6 @@
 
   <!-- Custom styles for this template-->
   <link href="css/sb-admin-2.min.css" rel="stylesheet">
-  <link href="css/team.css" rel="stylesheet">
 
 </head>
 
@@ -45,8 +44,8 @@
       <!-- Nav Item - Dashboard -->
       <li class="nav-item active">
         <a class="nav-link" href="index.html">
-          <i class="fas fa-fw fa-clock"></i>
-          <span>Antecedentes</span></a>
+          <i class="fas fa-fw fa-info"></i>
+          <span>Sobre el proyecto</span></a>
       </li>
 
       <!-- Divider -->
@@ -58,16 +57,28 @@
       </div>
 
       <!-- Nav Item - Pages Collapse Menu -->
+
+      <!-- Nav Item - Metodología -->
+      <li class="nav-item">
+        <a class="nav-link" href="met.html">
+          <i class="fas fa-fw fa-cog"></i>
+          <span>Metodología</span></a>
+      </li>
+
+      <!-- Nav Item - Antecedentes -->
+
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
           aria-controls="collapseTwo">
-          <i class="fas fa-fw fa-info"></i>
-          <span>Información</span>
+          <i class="fas fa-fw fa-clock"></i>
+          <span>Antecedentes</span>
         </a>
+
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Antecedentes</h6>
-            <a class="collapse-item" href="time-line.html">Linea de tiempo</a>
+            <h6 class="collapse-header">Información</h6>
+            <a class="collapse-item" href="abstract.html">Abstract</a>
+            <a class="collapse-item" href="time-line.html">Línea de tiempo</a>
           </div>
         </div>
       </li>
@@ -80,25 +91,25 @@
         Las Ollas Populares en el 2020
       </div>
 
-      <!-- Nav Item - Charts -->
+      <!-- Nav Item - Mapa Ollas -->
       <li class="nav-item">
-        <a class="nav-link" href="met.html">
-          <i class="fas fa-fw fa-cog"></i>
-          <span>Metodología</span></a>
+        <a class="nav-link" href="map_total.html">
+          <i class="fas fa-fw fa-map"></i>
+          <span>¿Dónde están las OP?</span></a>
       </li>
 
-      <!-- Nav Item - Tables -->
+      <!-- Nav Item - Montevideo -->
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
           aria-expanded="true" aria-controls="collapseUtilities">
-          <i class="fas fa-fw fa-map-marked"></i>
-          <span>Mapas</span>
+          <i class="fas fa-fw fa-map-pin"></i>
+          <span>Las OP en Montevideo</span>
         </a>
         <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Mapas</h6>
-            <a class="collapse-item" href="map1.html">¿Dónde están ubicadas?</a>
-            <a class="collapse-item" href="map2.html">Foco en Montevideo</a>
+            <h6 class="collapse-header">Información</h6>
+            <a class="collapse-item" href="map_mvd.html">¿Dónde están ubicadas?</a>
+            <a class="collapse-item" href="chart.html">Gráficos</a>
           </div>
         </div>
       </li>
@@ -107,7 +118,7 @@
 
       <!-- Heading -->
       <div class="sidebar-heading">
-        Las Ollas Populares en el 2020
+        Información
       </div>
 
       <!-- Contacto -->
@@ -131,127 +142,156 @@
       <!-- Main Content -->
       <div id="content">
 
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+          <!-- Sidebar Toggle (Topbar) -->
+          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+            <i class="fa fa-bars"></i>
+          </button>
+
+        </nav>
+        <!-- End of Topbar -->
+
         <!-- Begin Page Content -->
         <div class="container-fluid">
 
           <!-- Page Heading -->
-          <h1 class="h3 mb-2 text-gray-800" style="margin-top: 20px;">Equipo</h1>
-          <p class="mb-4">Conoce al equipo detrás del proyecto.</p>
+          <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-2 text-gray-800">Nuestro equipo</h1>
+          </div>
+          <div>
+            <p class="mb-12">Integrantes del equipo de investigación</p>
+          </div>
 
           <!-- DataTales Example -->
           <div class="card shadow mb-4">
             <div class="card-header py-3">
-              <h6 class="m-0 font-weight-bold text-primary">Nuestro equipo</h6>
+              <h6 class="m-0 font-weight-bold text-primary">Equipo</h6>
             </div>
-            <div class="card-body">
-              <div class="table-responsive">
 
-                <div class="team-section">
-                  <div class="inner-width">
-                    <div class="pers">
+            <div class="row" style="margin-left:10px; margin-top: 10px; margin-right:10px;">
 
-                      <div class="pe">
-                        <img class="img-round" src="img/p1.png" alt="">
-                        <div class="p-name">Full Name</div>
-                        <div class="p-des">Designer</div>
-                        <div class="p-sm">
-                          <a href="#"><i class="fab fa-facebook-f"></i></a>
-                          <a href="#"><i class="fab fa-twitter"></i></a>
-                          <a href="#"><i class="fab fa-instagram"></i></a>
-                        </div>
-                      </div>
+              <div class="col-lg-6 mb-4">
+                <div class="card bg-primary text-white shadow">
+                  <div class="card-body">
+                    Ignacio Borba
+                    <div class="text-white-50">Es estudiante avanzado de la Licenciatura en Sociología por la
+                      Universidad Católica del Uruguay.</div>
+                    <a class="text-white-50" href="mailto: nachoborba@gmail.com">
+                      <br>
+                      <i class="fas fa-envelope fa-2x"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
 
-                      <div class="pe">
-                        <img class="img-round" src="img/p2.png" alt="">
-                        <div class="p-name">Full Name</div>
-                        <div class="p-des">Designer</div>
-                        <div class="p-sm">
-                          <a href="#"><i class="fab fa-facebook-f"></i></a>
-                          <a href="#"><i class="fab fa-twitter"></i></a>
-                          <a href="#"><i class="fab fa-instagram"></i></a>
-                        </div>
-                      </div>
+              <div class="col-lg-6 mb-4">
+                <div class="card bg-success text-white shadow">
+                  <div class="card-body">
+                    Agustina Castro
+                    <div class="text-white-50">Es Licenciada en Economía por la Universidad Católica del Uruguay.</div>
+                    <a class="text-white-50" href="mailto: agcastrosuarez@gmail.com">
+                      <br>
+                      <br>
+                      <i class="fas fa-envelope fa-2x"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
 
-                      <div class="pe">
-                        <img class="img-round" src="img/p3.png" alt="">
-                        <div class="p-name">Full Name</div>
-                        <div class="p-des">Developer</div>
-                        <div class="p-sm">
-                          <a href="#"><i class="fab fa-facebook-f"></i></a>
-                          <a href="#"><i class="fab fa-twitter"></i></a>
-                          <a href="#"><i class="fab fa-instagram"></i></a>
-                        </div>
-                      </div>
-
-                      <div class="pe">
-                        <img class="img-round" src="img/p3.png" alt="">
-                        <div class="p-name">Full Name</div>
-                        <div class="p-des">Developer</div>
-                        <div class="p-sm">
-                          <a href="#"><i class="fab fa-facebook-f"></i></a>
-                          <a href="#"><i class="fab fa-twitter"></i></a>
-                          <a href="#"><i class="fab fa-instagram"></i></a>
-                        </div>
-                      </div>
-
-                      <div class="pe">
-                        <img class="img-round" src="img/p3.png" alt="">
-                        <div class="p-name">Full Name</div>
-                        <div class="p-des">Developer</div>
-                        <div class="p-sm">
-                          <a href="#"><i class="fab fa-facebook-f"></i></a>
-                          <a href="#"><i class="fab fa-twitter"></i></a>
-                          <a href="#"><i class="fab fa-instagram"></i></a>
-                        </div>
-                      </div>
-                    </div>
+              <div class="col-lg-6 mb-4">
+                <div class="card bg-info text-white shadow">
+                  <div class="card-body">
+                    Inés Fynn
+                    <div class="text-white-50">Es candidata a doctora en Ciencia Política por la Pontificia Universidad
+                      Católica de Chile, profesora aula del Departamento de Ciencias Sociales de la Universidad Católica
+                      del Uruguay, becaria de doctorado ANID y doctorante en el Instituto Milenio Fundamento de los
+                      Datos. </div>
+                    <a class="text-white-50" href="mailto: ifynn@uc.cl">
+                      <br>
+                      <i class="fas fa-envelope fa-2x"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 mb-4">
+                <div class="card bg-danger text-white shadow">
+                  <div class="card-body">
+                    Cecilia Rossel
+                    <div class="text-white-50">Es doctora en Gobierno y Administración Pública por el Instituto Ortega y
+                      Gasset de la Universidad Complutense de Madrid, y profesora de alta dedicación del Departamento de
+                      Ciencias Sociales de la Universidad Católica del Uruguay.</div>
+                    <a class="text-white-50" href="mailto: cecilia.rossel@ucu.edu.uy">
+                      <br>
+                      <i class="fas fa-envelope fa-2x"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 mb-4">
+                <div class="card bg-secondary text-white shadow">
+                  <div class="card-body">
+                    Jael Umpierrez
+                    <div class="text-white-50">Es estudiante avanzada de la Licenciatura en Sociología por la
+                      Universidad Católica del Uruguay.</div>
+                    <a class="text-white-50" href="mailto: jael.umpierrez@gmail.com">
+                      <br>
+                      <i class="fas fa-envelope fa-2x"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 mb-4">
+                <div class="card bg-light text-black shadow">
+                  <div class="card-body">
+                    Ornella Novino
+                    <div class="text-black-50">Desarrollo y diseño de la aplicación web para el proyecto de Ollas
+                      Populares en Uruguay</div>
+                    <a class="text-black-50" href="mailto: novino.ornella@gmail.com">
+                      <br>
+                      <i class="fas fa-envelope fa-2x"></i>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <!-- /.container-fluid -->
-      </div>
-      <!-- End of Main Content -->
+          <!-- /.container-fluid -->
 
-      <!-- Footer -->
-      <footer class="sticky-footer bg-white">
-        <div class="container my-auto">
-          <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Proyecto ollas populares Uruguay 2020</span>
-          </div>
         </div>
-      </footer>
-      <!-- End of Footer -->
+        <!-- End of Main Content -->
+
+        <!-- Footer -->
+        <footer class="sticky-footer bg-white">
+          <div class="container my-auto">
+            <div class="copyright text-center my-auto">
+              <span>Copyright &copy; Proyecto ollas populares Uruguay 2020</span>
+            </div>
+          </div>
+        </footer>
+        <!-- End of Footer -->
+
+      </div>
+      <!-- End of Content Wrapper -->
 
     </div>
-    <!-- End of Content Wrapper -->
+    <!-- End of Page Wrapper -->
 
-  </div>
-  <!-- End of Page Wrapper -->
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
 
-  <!-- Scroll to Top Button-->
-  <a class="scroll-to-top rounded" href="#page-top">
-    <i class="fas fa-angle-up"></i>
-  </a>
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Bootstrap core JavaScript-->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-  <!-- Core plugin JavaScript-->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom scripts for all pages-->
-  <script src="js/sb-admin-2.min.js"></script>
-
-  <!-- Page level plugins -->
-  <script src="vendor/chart.js/Chart.min.js"></script>
-
-  <!-- Page level custom scripts -->
-  <script src="js/demo/chart-area-demo.js"></script>
-  <script src="js/demo/chart-pie-demo.js"></script>
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
 
 </body>
 

@@ -13,7 +13,9 @@
 
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+    rel="stylesheet">
 
   <!-- Custom styles for this template-->
   <link href="css/sb-admin-2.min.css" rel="stylesheet">
@@ -42,8 +44,8 @@
       <!-- Nav Item - Dashboard -->
       <li class="nav-item active">
         <a class="nav-link" href="index.html">
-          <i class="fas fa-fw fa-clock"></i>
-          <span>Antecedentes</span></a>
+          <i class="fas fa-fw fa-info"></i>
+          <span>Sobre el proyecto</span></a>
       </li>
 
       <!-- Divider -->
@@ -55,15 +57,28 @@
       </div>
 
       <!-- Nav Item - Pages Collapse Menu -->
+
+      <!-- Nav Item - Metodología -->
       <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-          <i class="fas fa-fw fa-info"></i>
-          <span>Información</span>
+        <a class="nav-link" href="met.html">
+          <i class="fas fa-fw fa-cog"></i>
+          <span>Metodología</span></a>
+      </li>
+
+      <!-- Nav Item - Antecedentes -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
+          aria-controls="collapseTwo">
+          <i class="fas fa-fw fa-clock"></i>
+          <span>Antecedentes</span>
         </a>
+
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Antecedentes</h6>
-            <a class="collapse-item" href="time-line.html">Linea de tiempo</a>
+            <h6 class="collapse-header">Información</h6>
+            <a class="collapse-item" href="abstract.html">Abstract</a>
+            <a class="collapse-item" href="time-line.html">Línea de tiempo</a>
           </div>
         </div>
       </li>
@@ -75,25 +90,26 @@
       <div class="sidebar-heading">
         Las Ollas Populares en el 2020
       </div>
-      
-      <!-- Nav Item - Charts -->
+
+      <!-- Nav Item - Mapa Ollas -->
       <li class="nav-item">
-        <a class="nav-link" href="met.html">
-          <i class="fas fa-fw fa-cog"></i>
-          <span>Metodología</span></a>
+        <a class="nav-link" href="map_total.html">
+          <i class="fas fa-fw fa-map"></i>
+          <span>¿Dónde están las OP?</span></a>
       </li>
 
-      <!-- Nav Item - Tables -->
+      <!-- Nav Item - Montevideo -->
       <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
-          <i class="fas fa-fw fa-map-marked"></i>
-          <span>Mapas</span>
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
+          aria-expanded="true" aria-controls="collapseUtilities">
+          <i class="fas fa-fw fa-map-pin"></i>
+          <span>Las OP en Montevideo</span>
         </a>
         <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Mapas</h6>
-            <a class="collapse-item" href="map1.html">¿Dónde están ubicadas?</a>
-            <a class="collapse-item" href="map2.html">Foco en Montevideo</a>
+            <h6 class="collapse-header">Información</h6>
+            <a class="collapse-item" href="map_mvd.html">¿Dónde están ubicadas?</a>
+            <a class="collapse-item" href="chart.html">Gráficos</a>
           </div>
         </div>
       </li>
@@ -102,9 +118,9 @@
 
       <!-- Heading -->
       <div class="sidebar-heading">
-        Las Ollas Populares en el 2020
+        Información
       </div>
-      
+
       <!-- Contacto -->
       <li class="nav-item">
         <a class="nav-link" href="team.html">
@@ -126,29 +142,46 @@
       <!-- Main Content -->
       <div id="content">
 
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+          <!-- Sidebar Toggle (Topbar) -->
+          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+            <i class="fa fa-bars"></i>
+          </button>
+
+        </nav>
+        <!-- End of Topbar -->
+
         <!-- Begin Page Content -->
         <div class="container-fluid">
 
           <!-- Page Heading -->
-          <h1 class="h3 mb-2 text-gray-800" style="margin-top: 20px;">Ollas populares en uruguay</h1>
-          <p class="mb-4">La olla popular como mecanismo no-estatal de provisión de bienestar durante períodos de shock en Uruguay.</p>
+          <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-2 text-gray-800">Ollas populares en uruguay</h1>
+          </div>
+          <div>
+            <p class="mb-12">La olla popular como mecanismo no-estatal de provisión de bienestar durante períodos de
+              shock en Uruguay.</p>
+          </div>
 
           <!-- DataTales Example -->
           <div class="card shadow mb-4">
             <div class="card-header py-3">
-              <h6 class="m-0 font-weight-bold text-primary">Abstract</h6>
+              <h6 class="m-0 font-weight-bold text-primary">Sobre el proyecto</h6>
             </div>
             <div class="card-body">
-              <div class="table-responsive">
-                <p>La emergencia sanitaria declarada en marzo de 2020 por el gobierno nacional dio lugar a una coyuntura económica crítica. Desde distintos ámbitos, emergieron mecanismos para dar respuesta a la situación de vulnerabilidad de varios sectores de la población. En este contexto, las ollas populares se activaron como iniciativas colectivas para brindar alimentos a las poblaciones más afectadas por la crisis. A primera vista, el surgimiento de ollas populares pareciera ser el retorno de un mecanismo espontáneo y solidario, que rápidamente se asoció a la experiencia de la crisis económica del año 2002. Sin embargo, las ollas populares no nacieron en 2002.</p>
-                <p>Una mirada a la historia reciente del país permite identificar, al menos, tres períodos donde las ollas populares emergieron como respuestas relativamente organizadas de solidaridad social. De este modo, más que tratarse de una reacción espontánea de solidaridad o de iniciativas independientes entre sí, parece ser que en Uruguay –así como en otros países de la región – la olla popular funciona como un mecanismo no-estatal de provisión de bienestar que se activa en períodos de shock.</p>
-                <a href="#" class="btn btn-info btn-icon-split">
-                  <span class="icon text-white-50">
-                    <i class="fas fa-info-circle"></i>
-                  </span>
-                  <span class="text">Leer más</span>
-                </a>
-              </div>
+              <p>La crisis económica y sanitaria generada por la pandemia del nuevo coronavirus (COVID-19) puso de
+                relieve desigualdades estructurales que tiene Uruguay. Desde distintos ámbitos, emergieron mecanismos
+                para dar respuesta a la situación de vulnerabilidad de varios sectores de la población. En este
+                contexto, han surgido en varios puntos del país ollas populares como iniciativas colectivas para brindar
+                alimentos a las poblaciones más vulnerables.</p>
+              <p>El proyecto de Ollas Populares en Uruguay es una iniciativa desarrollada por profesoras y estudiantes
+                de la Universidad Católica del Uruguay. El principal objetivo es la generación de información sobre las
+                ollas populares como mecanismos informales de provisión de bienestar en nuestro país. El proyecto se
+                encuentra en una etapa inicial, en la que se han recabado tanto datos cuantitativos como cualitativos
+                con el fin de echar luz sobre los antecedentes y las características actuales de las ollas populares en
+                Uruguay.</p>
             </div>
           </div>
 
@@ -188,13 +221,6 @@
 
   <!-- Custom scripts for all pages-->
   <script src="js/sb-admin-2.min.js"></script>
-
-  <!-- Page level plugins -->
-  <script src="vendor/chart.js/Chart.min.js"></script>
-
-  <!-- Page level custom scripts -->
-  <script src="js/demo/chart-area-demo.js"></script>
-  <script src="js/demo/chart-pie-demo.js"></script>
 
 </body>
 
