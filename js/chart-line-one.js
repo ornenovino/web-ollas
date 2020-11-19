@@ -104,8 +104,8 @@ var myChart = new Chart(ctx, {
         datasets: [{
             label: 'Cantidad de ollas cada 1000 habitantes por barrio', // Name the series
             data: data, // Specify the data values array
-            borderColor: '#98c680', // Add custom color border            
-            backgroundColor: '#337410', // Add custom color background (Points and Fill)
+            borderColor: '#4d2e05', // Add custom color border            
+            backgroundColor: '#ffa630', // Add custom color background (Points and Fill)
             showLine: false
         }]
     },

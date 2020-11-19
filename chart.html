@@ -196,7 +196,7 @@
                   <i class="fas fa-circle" style="color: #74c7ff;"></i> Municipio C
                 </span>
                 <span class="mr-2">
-                  <i class="fas fa-circle" style="color: #f5633e;"></i> Municipio E
+                  <i class="fas fa-circle" style="color: #d7e8ba;"></i> Municipio E
                 </span>
                 <span class="mr-2">
                   <i class="fas fa-circle" style="color: #b5fffa;"></i> Municipio CH
@@ -216,7 +216,7 @@
             <div class="card-body">
               <div class="mt-2 text-center small">
                 <span class="mr-2">
-                  <i class="fas fa-circle" style="color: #337410;"></i> Cantidad de ollas cada 1000 habitantes por
+                  <i class="fas fa-circle" style="color: #ffa630;"></i> Cantidad de ollas cada 1000 habitantes por
                   barrio
                 </span>
               </div>
@@ -225,8 +225,8 @@
               </div>
             </div>
           </div>
+
           <!-- Scatter -->
-          <!-- Line -->
           <div class="card shadow mb-5">
             <div class="card-header py-3">
               <h6 class="m-0 font-weight-bold text-primary">Distribución de ollas populares en municipios de Montevideo
@@ -238,7 +238,7 @@
             <div class="card-body">
               <div class="mt-2 text-center small">
                 <span class="mr-2">
-                  <i class="fas fa-circle" style="color: #f46339;"></i> Cantidad de ollas cada 1.000 habitantes por
+                  <i class="fas fa-circle" style="color: #4da1a9;"></i> Cantidad de ollas cada 1.000 habitantes por
                   proporción de trabajadores informales por barrio
                 </span>
               </div>
@@ -246,7 +246,53 @@
                 <canvas id="myScat"></canvas>
               </div>
             </div>
-            <!-- /.container-fluid -->
+          </div>
+
+          <!-- Scatter 2 -->
+          <div class="card shadow mb-5">
+            <div class="card-header py-3">
+              <h6 class="m-0 font-weight-bold text-primary">Distribución de ollas populares en municipios de Montevideo
+                y necesidades básicas insatisfechas - 2020
+              </h6>
+            </div>
+
+            <!-- Card Body -->
+            <div class="card-body">
+              <div class="mt-2 text-center small">
+                <span class="mr-2">
+                  <i class="fas fa-circle" style="color: #98c680;"></i> Cantidad de ollas cada 1.000 habitantes por
+                  proporción de hogares con al menos una NBI
+                </span>
+              </div>
+              <div class="chart-bar pt-2">
+                <canvas id="myScat2"></canvas>
+              </div>
+            </div>
+          </div>
+
+            <!-- Scatter 3 -->
+          <div class="card shadow mb-5">
+            <div class="card-header py-3">
+              <h6 class="m-0 font-weight-bold text-primary">Distribución de ollas populares en municipios de Montevideo
+                y nivel socioeconómico - 2020
+              </h6>
+            </div>
+
+            <!-- Card Body -->
+            <div class="card-body">
+              <div class="mt-2 text-center small">
+                <span class="mr-2">
+                  <i class="fas fa-circle" style="color: #70409c;"></i> Cantidad de ollas cada 1.000 habitantes por Nivel Socioeconómico
+
+                </span>
+              </div>
+              <div class="chart-bar pt-2">
+                <canvas id="myScat3"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <!-- /.container-fluid -->
           </div>
           <!-- End of Main Content -->
 
@@ -288,6 +334,8 @@
       <script src="js/chart-pie.js"></script>
       <script src="js/chart-line-one.js"></script>
       <script src="js/chart-scat.js"></script>
+      <script src="js/chart-scat_2.js"></script>
+      <script src="js/chart-scat_3.js"></script>
 
 </body>
 

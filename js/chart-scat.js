@@ -279,8 +279,8 @@ var myChart = new Chart(ctx, {
         labels: ['Tres Cruces', 'Pocitos', 'Parque Rodo', 'La Blanqueada', 'Punta Carretas', 'Punta Gorda', 'Atahualpa', 'Pque. Batlle - V. Dolores', 'Centro', 'Carrasco', 'Malvin', 'Cordon', 'Prado - Nueva Savona', 'Larrañaga', 'Aguada', 'Palermo', 'Barrio Sur', 'Buceo', 'Capurro - Bella Vista', 'Paso De Las Duranas', 'Brazo Oriental', 'Reducto', 'La Comercial', 'La Figurita', 'Jacinto Vera', 'Mercado Modelo - Bolivar', 'Carrasco Norte', 'Ciudad Vieja', 'Sayago', 'Villa Muñoz - Retiro', 'Aires Puros', 'Union', 'Malvin Norte', 'Castro - P. Castellanos', 'Belvedere', 'Cerrito', 'La Teja', 'Las Canteras', 'Maroñas - Parque Guarani', 'Peñarol - Lavalleja', 'Villa Española', 'Cerro', 'Colon Sureste - Abayuba', 'Flor De Maroñas', 'Colon Centro Y Noroeste', 'Lezica - Melilla', 'Conciliacion', 'Ituzaingo', 'Banados De Carrasco', 'Nuevo Paris', 'Paso De La Arena', 'Las Acacias', 'Manga', 'Piedras Blancas', 'Pta. Rieles - Bella Italia', 'Tres Ombues - Victoria', 'Jardines Del Hipodromo', 'Villa Garcia - Manga Rur.', 'Manga - Toledo Chico', 'La Paloma - Tomkinson', 'Casabo - Pajas Blancas', 'Casavalle'],
         datasets: [{
             data: data, // Specify the data values array
-            borderColor: '#f46339', // Add custom color border            
-            backgroundColor: '#f46339', // Add custom color background (Points and Fill)
+            borderColor: '#07373b', // Add custom color border            
+            backgroundColor: '#4da1a9', // Add custom color background (Points and Fill)
         }]
     },
     options: options
